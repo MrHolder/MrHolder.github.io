@@ -1190,9 +1190,8 @@ option {
     outline: none !important;
 }
 
-._ibani_8281 {
-    top: 170px;
-}
+
+
 
 
 
@@ -1397,6 +1396,8 @@ option {
 
 
 
+
+
 /*--------------------------НАШИ РАБОТЫ-----------------------------*/
 
 .description--job {
@@ -1590,6 +1591,8 @@ option {
 
 
 
+
+
 /*--------------------------------ПАРТНЕРЫ------------------------------------*/
 
 .description--partner {
@@ -1665,6 +1668,8 @@ option {
 
 
 
+
+
 /*---------------------------  ОДНА УСЛУГА  ----------------------------------*/
 
 .oneservice {
@@ -1685,6 +1690,8 @@ option {
 .job__item--oneservice:before {
     background-image: url(../img/before_oneserv1.jpg) !important;
 }
+
+
 
 
 
@@ -1749,6 +1756,8 @@ option {
     -moz-transition: .3s;
     transition: .3s;
 }
+
+
 
 
 
