@@ -19,7 +19,7 @@
     <header class="header">
         <div class="wrapper">
             <div class="header__content">
-                <a href="#" class="logo"></a>
+                <a href="index.html" class="logo"></a>
                 <div class="header__items">
                     <div class="header__consalt">
                         <a href="tel:78888888888" class="header__consalt-phone">+7 (888) 888-88-88</a>
@@ -42,12 +42,12 @@
             <div class="description__content">
                 <h2 class="description__title">ИНФОРМАЦИЯ КОТОРОЙ<br> ВАМ НИКОГДА НЕ БУДЕТ МАЛО</h2>
                 <div class="description__scroll link_a">
-                    <a href="#service" class="description__scroll-link"></a>
+                    <a href="#partner" class="description__scroll-link"></a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="partner">
+    <section class="partner" id="partner">
         <h3 class="title">ПАРТНЕРЫ</h3>
         <div class="partner__items">
             <div class="partner__item"><img src="assets/img/partner1.png" alt="" class="partner__item-img"></div>
@@ -59,7 +59,7 @@
         </div>
     </section>
     <section class="choice">
-        <a href="#" class="choice__transition">Перейти на страницу полезная информация</a>
+        <a href="index10-info.html" class="choice__transition">Перейти на страницу полезная информация</a>
         <button class="choice__consultation btn-1">Заказать личную консультацию</button>
         <form action="" class="form__consultation">
             <strong class="form__title">Личная консультация со специалистом<br>стоимость - <span class="form__title--mod">1000</span> рублей</strong>
@@ -86,15 +86,16 @@
             </div>
             <button class="form__button ">Заказать личную консультацию</button>
             <span class="form__manual">* Нажимая на кнопку "ЗАКАЗАТЬ ЛИЧНУЮ КОНСУЛЬТАЦИЮ", я даю согласие на обработку персональных данных.</span>
+            <button class="form__close"></button>
         </form>
     </section>
-    <section class="map">
+    <section class="map" id="map">
     </section>
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__content">
                 <div class="footer__top">
-                    <a href="#" class="logo logo--footer"></a>
+                    <a href="index.html" class="logo logo--footer"></a>
                     <div class="footer__top-socials">
                         <a href="https://vk.com" class="footer__top-social" target="_blank"></a>
                         <a href="https://www.facebook.com" class="footer__top-social" target="_blank"></a>
@@ -124,18 +125,15 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/jquery-3.1.1.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <div class="navigate">
         <div class="wrapper">
             <div class="navigate__content">
                 <ul class="navigate__menu">
                     <li class="navigate__menu-item"> <a href="index.html" class="navigate__menu-link">О КОМПАНИИ</a></li>
                     <li class="navigate__menu-item"> <a href="index2-services.html" class="navigate__menu-link">НАШИ УСЛУГИ</a></li>
-                    <li class="navigate__menu-item"> <a href="#" class="navigate__menu-link">РЕЗУЛЬТАТ РАБОТЫ</a></li>
+                    <li class="navigate__menu-item"> <a href="index3-job.html" class="navigate__menu-link">РЕЗУЛЬТАТ РАБОТЫ</a></li>
                     <li class="navigate__menu-item"> <a href="index4-partner.html" class="navigate__menu-link">ПАРТНЕРЫ</a></li>
-                    <li class="navigate__menu-item"> <a href="#" class="navigate__menu-link">КОНТАКТЫ</a></li>
+                    <li class="navigate__menu-item"> <a href="index5-contact.html" class="navigate__menu-link">КОНТАКТЫ</a></li>
                 </ul>
                 <div class="navigate__contacts">
                     <a href="tel:78889990000" class="navigate__contact">+7 (888) 999-0-0-00</a>
@@ -144,6 +142,10 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPj1fZa02lUnbDujsgqg0Ra5kgNImKaQU&callback=initMap" async defer></script>
 </body>
 
 </html>
