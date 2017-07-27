@@ -40,6 +40,7 @@ function initMap() {
     var mapOptions = {
         backgroundColor: '#9d9d9d',
         zoom: 14,
+        minzoom: 10
 
     };
 
@@ -70,7 +71,6 @@ function initMap() {
         '</div>';
 
     infoBubble = new InfoBubble({
-        map: map,
         content: contentString,
         position: new google.maps.LatLng(-35, 151),
         shadowStyle: 0,
@@ -80,6 +80,7 @@ function initMap() {
         disableAutoPan: true,
         hideCloseButton: false,
         arrowPosition: 30,
+        closeSrc: 'assets/img/form_close.png',
         backgroundClassName: 'phoney',
         arrowStyle: 2,
         minWidth: 240,
