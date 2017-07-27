@@ -77,11 +77,12 @@ function initMap() {
         backgroundColor: '#cd7f32',
         borderColor: '#cd7f32',
         disableAutoPan: true,
-        hideCloseButton: true,
+        hideCloseButton: false,
         arrowPosition: 30,
         backgroundClassName: 'phoney',
         arrowStyle: 2,
-        Width: 300
+        minWidth: 240,
+        minHeight: 100
     });
 
     infoBubble.open(map, marker);
