@@ -57,8 +57,9 @@ a {
 }
 
 body {
-    overflow-x: hidden;
+
     position: relative;
+    min-width: 1240px;
 }
 
 button {
@@ -350,6 +351,7 @@ input::-moz-placeholder {
 .company {
     display: block;
     padding: 100px 0 95px 0;
+    overflow-x: hidden;
 }
 
 .company__content {
@@ -1197,6 +1199,12 @@ option {
 
 
 
+
+
+
+
+
+
 /*-----------------------------СТРАНИЦА УСЛУГ--------------------------------------------*/
 
 .description--service {
@@ -1401,6 +1409,12 @@ option {
 
 
 
+
+
+
+
+
+
 /*--------------------------НАШИ РАБОТЫ-----------------------------*/
 
 .description--job {
@@ -1597,6 +1611,12 @@ option {
 
 
 
+
+
+
+
+
+
 /*--------------------------------ПАРТНЕРЫ------------------------------------*/
 
 .description--partner {
@@ -1675,6 +1695,12 @@ option {
 
 
 
+
+
+
+
+
+
 /*---------------------------  ОДНА УСЛУГА  ----------------------------------*/
 
 .oneservice {
@@ -1695,6 +1721,12 @@ option {
 .job__item--oneservice:before {
     background-image: url(../img/before_oneserv1.jpg) !important;
 }
+
+
+
+
+
+
 
 
 
@@ -1762,6 +1794,12 @@ option {
     -moz-transition: .3s;
     transition: .3s;
 }
+
+
+
+
+
+
 
 
 
