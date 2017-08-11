@@ -1469,29 +1469,30 @@ input:focus::-moz-placeholder {
 
 .sertificate__item-img {
     display: block;
-    width: 100%;
+    width: 110px;
+    height: 151px;
 }
 
-.sertificate__item-body:after {
-    content: '';
-    background-image: url(../img/sert1-hover.jpg);
-    height: 151px;
-    width: 110px;
+.sertificate__item-hover {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 7px;
-    left: 8px;
-    opacity: 0;
+    top: 0;
+    left: 0;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
+    background-image: url(../img/sert1-hover.jpg);
+    opacity: 0;
 }
 
 .sertificate__item-body {
     display: block;
+    position: relative;
 }
 
-.sertificate__item-body:hover:after {
+.sertificate__item-hover:hover {
     opacity: 1;
     -webkit-transition: .3s;
     -o-transition: .3s;
