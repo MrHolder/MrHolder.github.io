@@ -777,24 +777,10 @@
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
     </script>
     <script type="text/javascript">
-    ymaps.ready(init);
-
-    function init() {
-        var myMap, myPlacemark;
-        myMap = new ymaps.Map("myMap", {
-            //Координаты центра
-            center: [44.05437925, 42.88897198],
-            zoom: 17
-        });
-
-        //Координаты метки
-        myPlacemark = new ymaps.Placemark([44.053869, 42.892255], {
-            iconContent: 'Пятигорская улица, 118',
-        }, {
-            preset: "islands#redStretchyIcon",
-        });
-        myMap.geoObjects.add(myPlacemark);
-    }
+    var map = {
+        center: [44.05437925, 42.88897198], //центр карты
+        placemark: [44.053869, 42.892255] //метка
+    };
     </script>
 </body>
 

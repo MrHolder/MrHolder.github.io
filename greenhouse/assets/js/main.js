@@ -61,5 +61,22 @@ $(document).ready(function() {
             }
         }]
     });
-
+    ymaps.ready(init);
 });
+
+function init() {
+    var myMap, myPlacemark;
+    myMap = new ymaps.Map("myMap", {
+        //Координаты центра
+        center: map.center,
+        zoom: 17
+    });
+
+    //Координаты метки
+    myPlacemark = new ymaps.Placemark(map.placemark, {
+        iconContent: 'Пятигорская улица, 118',
+    }, {
+        preset: "islands#redStretchyIcon",
+    });
+    myMap.geoObjects.add(myPlacemark);
+}
