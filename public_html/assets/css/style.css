@@ -181,7 +181,7 @@ input::-moz-placeholder {
 .header__logo {
     display: inline-block;
     vertical-align: middle;
-    margin: 0 105px 0 75px;
+    margin: 0px 88px 0 61px;
     width: 344px;
     height: 101px;
     position: relative;
@@ -231,26 +231,17 @@ input::-moz-placeholder {
 .header__phone-callback {
     display: block;
     margin-top: 7px;
-    color: #7fa960;
+    color: #696a6c;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    border-bottom: 1px #7fa960 dashed;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
 }
 
-.header__phone-callback:hover {
-    border-bottom: 1px transparent dashed;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    -moz-transition: .3s;
-    transition: .3s;
-    color: #6a924c;
-}
 
 .advice {
     display: block;
@@ -481,20 +472,6 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Нитевой лифтинг - начало-------------------------------------*/
 
 .advice--lifting {
@@ -548,20 +525,6 @@ input::-moz-placeholder {
 .advice__item-consult--st {
     color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -632,20 +595,6 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Candela - конец-------------------------------*/
 
 
@@ -702,20 +651,6 @@ input::-moz-placeholder {
 .advice__item-consult--st {
     color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -922,20 +857,6 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .correction--lifting {
@@ -1070,20 +991,6 @@ input::-moz-placeholder {
     font-weight: 400;
     font-variant: small-caps;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1409,20 +1316,6 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .result--lifting {
@@ -1476,20 +1369,6 @@ input::-moz-placeholder {
     width: 187px;
     margin-top: 28px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1704,39 +1583,11 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .effect__button--lifting {
     margin-top: 43px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1989,20 +1840,6 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .event__item-body-content--lifting {
@@ -2076,20 +1913,6 @@ input::-moz-placeholder {
     font-weight: 700;
     font-variant: small-caps;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2348,39 +2171,11 @@ input::-moz-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .reviews--lifting {
     background-image: url(../img/back_img2-3.png);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3153,7 +2948,7 @@ input::-moz-placeholder {
     .header__logo {
         width: 290px;
         height: 80px;
-        margin: 0 12px 0 12px;
+        margin: 0px 1px 0 -6px;
     }
 
     .header__logo:after {
@@ -4074,9 +3869,9 @@ input::-moz-placeholder {
         width: 300px;
         margin-left: -150px;
         padding: 56px 15px;
-        height: 420px;
-        margin-top: -210px;
-        max-height: 440px;
+        height: inherit;
+        margin-top: -175px;
+        max-height: 345px;
         overflow-x: inherit;
         overflow-y: auto;
     }
@@ -4766,5 +4561,9 @@ input::-moz-placeholder {
         margin: 65px auto 0 auto;
         font-size: 18px;
         line-height: 23px;
+    }
+    .popup {
+        margin-top: -240px;
+        max-height: 495px;
     }
 }

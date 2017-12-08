@@ -134,7 +134,25 @@ $(document).ready(function() {
     });
 
 
+    //Видео отзывы
+    $('.btn-4').click(function() {
+        var popupVideoIframe = $('.popup__video1 .popup__video-body');
 
+        $(popupVideoIframe).attr('src', $(popupVideoIframe).data('src'));
+        $('.popup__video1, .overlay').fadeIn(500);
+    });
+
+    $('.overlay').click(function() {
+        $('.popup__video, .overlay').fadeOut(200);
+        $('.popup__video .popup__video-body').attr('src', '');
+
+    });
+    $(document).on('keyup', function(event) {
+        if (event.keyCode === 27 && $('.overlay').is(':visible')) {
+            $('.popup__video, .overlay').fadeOut(200);
+            $('.popup__video .popup__video-body').attr('src', '');
+        }
+    });
 
     ymaps.ready(init);
 
@@ -154,4 +172,6 @@ function init() {
         preset: "islands#redStretchyIcon",
     });
     myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('drag');
+    myMap.behaviors.disable('scrollZoom');
 }

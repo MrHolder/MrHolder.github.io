@@ -11,7 +11,7 @@
 /** CONFIGURATION OPTIONS
  * $email_address = The email address that all form submissions will be sent to
  * $company_address = The destination address that will be used in the contact form */
-$email_address = 'diplomatclinic2017@gmail.com';
+$email_address = 'diplomatclinic2017@gmail.com, info@diplomatbeauty.ru';
 $company_address = 'Россия';
 //$eml = 'Сайт название <1231@yandex.ru>';
 /** DO NOT EDIT ANYTHING BELOW THIS LINE UNLESS YOU ARE COMFORTABLE WITH PHP */

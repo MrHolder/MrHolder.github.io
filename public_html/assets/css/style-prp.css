@@ -181,7 +181,7 @@ input::-moz-placeholder {
 .header__logo {
     display: inline-block;
     vertical-align: middle;
-    margin: 0 105px 0 75px;
+    margin: 0px 88px 0 61px;
     width: 344px;
     height: 101px;
     position: relative;
@@ -231,26 +231,17 @@ input::-moz-placeholder {
 .header__phone-callback {
     display: block;
     margin-top: 7px;
-    color: #7fa960;
+    color: #696a6c;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    border-bottom: 1px #7fa960 dashed;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
 }
 
-.header__phone-callback:hover {
-    border-bottom: 1px transparent dashed;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    -moz-transition: .3s;
-    transition: .3s;
-    color: #6a924c;
-}
 
 .advice {
     display: block;
@@ -266,7 +257,7 @@ input::-moz-placeholder {
 
 .advice__content {
     display: block;
-    padding: 95px 0 100px 0;
+    padding: 95px 0 75px 0;
 }
 
 .advice__items {
@@ -379,7 +370,7 @@ input::-moz-placeholder {
 
 .advice__form:after {
     content: '';
-    background-image: url(../img/form_img.png);
+    background-image: url(../img/form_img2.png);
     height: 87px;
     width: 302px;
     bottom: 0;
@@ -417,7 +408,7 @@ input::-moz-placeholder {
 }
 
 .advice input:hover::-webkit-input-placeholder {
-    color: #89997d;
+    color: #b7988e;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
@@ -426,7 +417,7 @@ input::-moz-placeholder {
 
 .advice input:hover::-moz-placeholder {
     opacity: 1;
-    color: #89997d;
+    color: #b7988e;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
@@ -434,12 +425,12 @@ input::-moz-placeholder {
 }
 
 .advice input:focus::-webkit-input-placeholder {
-    color: #89997d;
+    color: #b7988e;
 }
 
 .advice input:focus::-moz-placeholder {
     opacity: 1;
-    color: #89997d;
+    color: #b7988e;
 }
 
 .content__button {
@@ -498,6 +489,15 @@ input::-moz-placeholder {
 
 
 
+
+
+
+
+
+
+
+
+
 /*---------------------------Нитевой лифтинг - начало-------------------------------------*/
 
 .advice--lifting {
@@ -538,19 +538,28 @@ input::-moz-placeholder {
 }
 
 .advice__form-input--lifting {
-    -webkit-box-shadow: inset 0 4px 0 #8b9297;
-    box-shadow: inset 0 4px 0 #8b9297;
+    -webkit-box-shadow: inset 0 4px 0 #eedacb;
+    box-shadow: inset 0 4px 0 #eedacb;
     -webkit-border-radius: 80px;
     border-radius: 80px;
 }
 
 .advice__item-consult--lifting {
-    color: #ffffff;
+    color: #444444;
 }
 
 .advice__item-consult--st {
     color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -643,81 +652,17 @@ input::-moz-placeholder {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*---------------------------Candela - конец-------------------------------*/
-
-
-/*---------------------------PRP - начало-------------------------------------*/
-
-.advice--prp {
-    background-image: url(../img/bg_1.jpg);
-}
-
-.advice__item-title--prp {
-    color: #ffffff;
-    font-family: "Roboto Slab";
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 48px;
-    font-variant: small-caps;
-    display: inline-block;
-    vertical-align: top;
-    max-width: 530px;
-    position: relative;
-    z-index: 2;
-}
-
-.advice__item--prp:first-child {
-    margin-top: 345px;
-}
-
-.advice__item--prp:first-child:before {
-    content: '';
-    background-image: url(../img/share.png);
-    width: 317px;
-    height: 309px;
-    top: -70px;
-    left: -124px;
-    position: absolute;
-    z-index: 1;
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-.advice__form-input--prp {
-    -webkit-box-shadow: inset 0 4px 0 #8b9297;
-    box-shadow: inset 0 4px 0 #8b9297;
-    -webkit-border-radius: 80px;
-    border-radius: 80px;
-}
-
-.advice__item-consult--prp {
-    color: #ffffff;
-}
-
-.advice__item-consult--st {
-    color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------Нитевой лифтинг - конец-------------------------------*/
 
 .share__item--advice {
     margin-top: 363px;
@@ -931,6 +876,48 @@ input::-moz-placeholder {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .correction--lifting {
@@ -1001,6 +988,10 @@ input::-moz-placeholder {
     z-index: 0;
 }
 
+.lifting__body--candela:before {
+    left: -495px;
+}
+
 .lifting__body-title {
     display: block;
     color: #9fc682;
@@ -1065,6 +1056,48 @@ input::-moz-placeholder {
     font-weight: 400;
     font-variant: small-caps;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1412,6 +1445,48 @@ input::-moz-placeholder {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .result--lifting {
@@ -1465,6 +1540,48 @@ input::-moz-placeholder {
     width: 187px;
     margin-top: 28px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1706,11 +1823,95 @@ input::-moz-placeholder {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .effect__button--lifting {
     margin-top: 43px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1926,10 +2127,6 @@ input::-moz-placeholder {
     margin-top: 50px;
 }
 
-.event__item:first-child .event__item-text {
-    line-height: 42px;
-}
-
 .event__item-button {
     display: inline-block;
     vertical-align: middle;
@@ -1967,6 +2164,48 @@ input::-moz-placeholder {
     transition: .3s;
     color: #696a6c;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2058,6 +2297,48 @@ input::-moz-placeholder {
     font-weight: 700;
     font-variant: small-caps;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2260,6 +2541,60 @@ input::-moz-placeholder {
     background-color: #76777a;
     padding: 9px;
     margin-right: 98px;
+    position: relative;
+}
+
+.reviews__slider-button {
+    position: absolute;
+    display: block;
+    padding-right: 38px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    z-index: 10;
+    bottom: 8px;
+    right: 12px;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.reviews__slider-button:after {
+    content: '';
+    background-image: url(../img/youtube.png);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
+
+.reviews__slider-button:hover:after {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    background-image: url(../img/youtube-hover.png);
+}
+
+.reviews__slider-button:active:after {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    background-image: url(../img/youtube-hover.png);
 }
 
 .reviews__slider-body {
@@ -2338,11 +2673,95 @@ input::-moz-placeholder {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------Нитевой лифтинг - начало-------------------------------*/
 
 .reviews--lifting {
     background-image: url(../img/back_img2-3.png);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2418,7 +2837,7 @@ input::-moz-placeholder {
     -o-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
+    position: inherit;
     z-index: 0;
 }
 
@@ -2485,6 +2904,178 @@ input::-moz-placeholder {
     font-variant: small-caps;
     line-height: 24px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------PRP - начало-------------------------------------*/
+
+.share-item-body:before {
+    position: inherit;
+}
+
+.advice--prp {
+    background-image: url(../img/back_img10.png);
+}
+
+.advice__item-title--prp {
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    font-variant: small-caps;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 530px;
+    position: relative;
+    z-index: 2;
+}
+
+.advice__item--prp:first-child {
+    margin-top: 345px;
+}
+
+.advice__item--prp:first-child:before {
+    content: '';
+    background-image: url(../img/share.png);
+    width: 317px;
+    height: 309px;
+    top: -70px;
+    left: -124px;
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.advice__form-input--prp {
+    -webkit-box-shadow: inset 0 4px 0 #8b9297;
+    box-shadow: inset 0 4px 0 #8b9297;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+.advice__item-consult--prp {
+    color: #ffffff;
+}
+
+.advice__item-consult--st {
+    color: #444444;
+}
+
+.share__item-body-title {
+    color: #444444;
+    font-family: "Roboto Slab";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    font-variant: small-caps;
+    display: block;
+}
+
+.share__item-body-title--mod {
+    color: #b03a37;
+    text-decoration: line-through;
+}
+
+.share__item-body-price {
+    color: #9fc682;
+    font-family: "Roboto Slab";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 54px;
+    font-variant: small-caps;
+    display: block;
+}
+
+.share__item--prp {
+    margin-top: 0;
+}
+
+.advice__items--prp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.advice__item--prp:last-child {
+    margin-left: 0;
+}
+
+.share__item-body--prp {
+    margin-bottom: 40px;
+}
+
+.advice__form input::-webkit-input-placeholder {
+    color: #b7988e;
+}
+
+.advice__form input::-moz-placeholder {
+    color: #b7988e;
+}
+
+.advice__form-input input:hover::-webkit-input-placeholder {
+    color: #b7988e;
+}
+
+.advice__form-input input:hover::-moz-placeholder {
+    color: #b7988e;
+}
+
+.advice__form-input:focus::-webkit-input-placeholder {
+    color: #b7988e;
+}
+
+.advice__form-input:focus::-moz-placeholder {
+    color: #b7988e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------Нитевой лифтинг - конец-------------------------------*/
 
 .cost {
     display: block;
@@ -3115,6 +3706,22 @@ input::-moz-placeholder {
     display: none !important;
 }
 
+.popup__video {
+
+    position: fixed;
+    height: 80%;
+    width: 78%;
+    top: 10%;
+    left: 11%;
+    display: none;
+    z-index: 30;
+}
+
+.popup__video-body {
+    height: 100%;
+    width: 100%;
+}
+
 @media (max-width: 1190px) {
     .wrapper {
         max-width: 960px;
@@ -3125,7 +3732,7 @@ input::-moz-placeholder {
     .header__logo {
         width: 290px;
         height: 80px;
-        margin: 0 12px 0 12px;
+        margin: 0px 1px 0 -6px;
     }
 
     .header__logo:after {
@@ -3241,6 +3848,7 @@ input::-moz-placeholder {
         height: 220px;
         width: 220px;
         margin-right: 10px;
+        position: relative;
     }
     .doctor__item-img img {
         height: 202px;
@@ -3255,6 +3863,7 @@ input::-moz-placeholder {
         width: 180px;
         height: 180px;
     }
+
     .reviews__slider-body {
         max-width: 580px;
         padding-bottom: 15px;
@@ -3426,7 +4035,7 @@ input::-moz-placeholder {
         text-align: center;
     }
     .advice__content {
-        padding: 70px 0 70px 0;
+        padding: 20px 0 70px 0;
     }
     .advice__item-share {
         margin-top: 134px;
@@ -3734,6 +4343,17 @@ input::-moz-placeholder {
     .share__item-button {
         margin: 34px auto 0 auto;
     }
+    .reviews__slider-button {
+        bottom: 9px;
+        right: 2px;
+        font-family: Roboto;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .reviews__slider-button:after {
+        height: 21px;
+    }
 }
 
 @media (max-width: 730px) {
@@ -3751,7 +4371,7 @@ input::-moz-placeholder {
         margin-left: 70px;
     }
     .advice__content {
-        padding: 50px 0 0 0;
+        padding: 3px 0 0 0;
     }
     .advice__item-title--strong {
         font-size: 60px;
@@ -4053,9 +4673,9 @@ input::-moz-placeholder {
         width: 300px;
         margin-left: -150px;
         padding: 56px 15px;
-        height: 460px;
-        margin-top: -210px;
-        max-height: 440px;
+        height: inherit;
+        margin-top: -175px;
+        max-height: 345px;
         overflow-x: inherit;
         overflow-y: auto;
     }
@@ -4234,6 +4854,9 @@ input::-moz-placeholder {
     .header__phone-callback {
         display: inline-block;
     }
+    .advice__content {
+        padding: 30px 0 0 0;
+    }
     .advice__item-title {
         font-size: 19px;
         line-height: 15px;
@@ -4276,6 +4899,14 @@ input::-moz-placeholder {
         left: 60px;
         width: 180px;
         bottom: -10px;
+    }
+    .share__item-body-title {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .share__item-body-price {
+        font-size: 47px;
+        line-height: 51px;
     }
     .correction__content {
         padding: 20px 0 20px 0;
@@ -4334,6 +4965,9 @@ input::-moz-placeholder {
         height: 35px;
         font-size: 18px;
         line-height: 35px;
+    }
+    .slider__effect-item-result--mod {
+        top: 43px;
     }
     .slider__effect-item:first-child .slider__effect-item-result {
         width: 50px;
@@ -4749,5 +5383,9 @@ input::-moz-placeholder {
         margin: 65px auto 0 auto;
         font-size: 18px;
         line-height: 23px;
+    }
+    .popup {
+        margin-top: -240px;
+        max-height: 495px;
     }
 }
