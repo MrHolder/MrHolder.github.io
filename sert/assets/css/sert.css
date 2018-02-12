@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chopin Script';
+    src: url('../fonts/KBChopinScript.eot');
+    src: url('../fonts/KBChopinScript.eot?#iefix') format('embedded-opentype'), url('../fonts/KBChopinScript.woff2') format('woff2'), url('../fonts/KBChopinScript.woff') format('woff'), url('../fonts/KBChopinScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
