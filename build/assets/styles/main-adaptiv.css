@@ -148,6 +148,12 @@
     }
 }
 
+@media (max-width: 980px) {
+    .menu__item {
+        margin-left: 22px;
+    }
+}
+
 @media (max-width: 970px) {
     .advantages__slider .slider {
         padding-left: 37px;
@@ -263,12 +269,6 @@
     }
 }
 
-@media (max-width: 920px) {
-    .menu__item {
-        margin-left: 30px;
-    }
-}
-
 @media (max-width: 900px) {
     .individual__content {
         padding: 0;
@@ -363,11 +363,8 @@
     .popup--program {
         width: 90%;
     }
-}
-
-@media (max-width: 850px) {
-    .menu__item {
-        margin-left: 16px;
+    .menu {
+        display: none;
     }
 }
 
@@ -405,12 +402,6 @@
     }
     .club__inner {
         width: 90%;
-    }
-}
-
-@media (max-width: 770px) {
-    .menu {
-        display: none;
     }
 }
 
