@@ -524,6 +524,9 @@
         font-size: 21px;
         line-height: 24px;
     }
+    .footer__items:last-child .footer__item:last-child {
+        margin-top: 8px;
+    }
 }
 
 @media (max-width: 600px) {
