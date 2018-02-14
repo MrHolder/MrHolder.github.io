@@ -576,12 +576,18 @@
     .popup--registration .popup__close {
         width: 30px;
         height: 30px;
-        top: 0px;
-        right: 0px;
+        top: 8px;
+        right: 8px;
     }
     .popup--registration {
         width: 90%;
         padding: 30px 30px;
+    }
+    .popup--program .popup__close {
+        width: 30px;
+        height: 30px;
+        top: 8px;
+        right: 8px;
     }
 }
 
@@ -767,7 +773,27 @@
     .packets__inner {
         padding: 30px 20px 150px 20px;
     }
-}
-
-
+    .popup__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .popup__form {
+        margin-top: 20px;
+    }
+    .popup .button {
+        margin-top: 15px;
+    }
+    .popup--registration .popup__close {
+        width: 24px;
+        height: 24px;
+    }
+    .popup--program .popup__close {
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        right: 8px;
+    }
+    .popup--program {
+        padding: 30px 30px;
+    }
 }
