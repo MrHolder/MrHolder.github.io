@@ -115,11 +115,7 @@ $(document).ready(function() {
         ],
         clear: 'Очистить'
     });
-    //Маска телефона
-    jQuery(function($) {
-        $.mask.definitions['~'] = '[+-]';
-        $('input[name="phone"]').mask("+7 (111)-111-11-11");
-    });
+
 
     // Услуги скролл
     $(".link_a").on("click", "a", function(event) {
@@ -131,6 +127,7 @@ $(document).ready(function() {
 
     $('.callback-btn').click(function() {
         $('.callback, .overlay').fadeIn(500);
+        return false;
     });
     $('.close__popup').click(function() {
         $('.callback, .overlay').fadeOut(200);
@@ -147,31 +144,79 @@ $(document).ready(function() {
     });
 
 
-
     $(".form__data1").submit(function() {
 
         var name1 = $('#name1').val();
         var phone1 = $('#phone1').val();
 
         if ((name1.length === 0) || (phone1.length === 0)) {
-            alert('Заполните все поля');
+            alert('Введите имя и телефон');
             return false;
         } else {
             $.ajax({
                 type: "POST",
                 url: "send1.php",
                 data: $(this).serialize(),
-                success: function() {
-                    window.location.href = "http://merafence.com/thanks.html";
+                success: function(result) {
+                    location.href = "thanks.html";
                 }
             });
             return false;
         }
     });
+    $(".form__data2").submit(function() {
+
+        var select2 = $('#select2').val();
+        var phone2 = $('#phone2').val();
+        var name2 = $('#name2').val();
+        var date2 = $('#date2').val();
+        var time2 = $('#time2').val();
+
+        if ((select2.length === 0) || (phone2.length === 0) || (name2.length === 0) || (date2.length === 0) || (time2.length === 0)) {
+            alert('Заполните поля');
+            return false;
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "send2.php",
+                data: $(this).serialize(),
+                success: function(result) {
+                    location.href = "thanks.html";
+                }
+            });
+            return false;
+        }
+    });
+    $(".form__data3").submit(function() {
+        var name3 = $('#name3').val();
+        var email3 = $('#email3').val();
+        var select3 = $('#select3').val();
+        var phone3 = $('#phone3').val();
+        var comment3 = $('#comment3').val();
+
+        if ((name3.length === 0) || (email3.length === 0) || (select3.length === 0) || (phone3.length === 0)) {
+            alert('Заполните поля');
+            return false;
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "send3.php",
+                data: $(this).serialize(),
+                success: function(result) {
+                    location.href = "thanks.html";
+                }
+            });
+            return false;
+        }
+    });
+    //Маска телефона
+    jQuery(function($) {
+        $.mask.definitions['~'] = '[+-]';
+        $('input[name="phone"]').mask("+7 (111)-111-11-11");
+    });
+
 
     ymaps.ready(init);
-
-
 });
 
 function init() {

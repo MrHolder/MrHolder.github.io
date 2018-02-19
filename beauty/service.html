@@ -311,31 +311,31 @@
             <div class="record__content record__content--service">
                 <div class="record__body">
                     <h2 class="record__title">Запишитесь на приём</h2>
-                    <form action="" class="record__form">
+                    <form action="" class="record__form form__data2">
                         <div class="record__form-item">
-                            <select name="Направление" required="" class="record__form-input">
-                                <option disabled selected value="Арбитражные споры" class="form__select-dropdown">Выберите направление</option>
-                                <option value="Арбитражные споры1" class="form__select-dropdown">Пункт 1</option>
-                                <option value="Арбитражные споры2" class="form__select-dropdown">Пункт 2</option>
-                                <option value="Арбитражные споры3" class="form__select-dropdown">Пункт 3</option>
+                            <select name="Направление" class="record__form-input" name="select" id="select2">
+                                <option disabled selected value="Направление" class="form__select-dropdown">Выберите направление</option>
+                                <option value="Направление 1" class="form__select-dropdown">Направление 1</option>
+                                <option value="Направление 2" class="form__select-dropdown">Направление 2</option>
+                                <option value="Направление 3" clarecord__form-item--modss="form__select-dropdown">Направление 3</option>
                             </select>
                         </div>
                         <div class="record__form-item">
-                            <input type="text" name="phone" placeholder="Контактный телефон" class="record__form-input" required="">
+                            <input type="text" name="phone" id="phone2" placeholder="Контактный телефон" class="record__form-input">
                         </div>
                         <div class="record__form-item">
-                            <input type="email" name="email" placeholder="ФИО пациента" class="record__form-input" required="">
+                            <input type="text" name="name" id="name2" placeholder="ФИО пациента" class="record__form-input">
                         </div>
                         <div class="record__form-item record__form-item--mod">
                             <div class="record__inner">
-                                <input id="datepicker" class="record__form-item-input datepicker" type="date" placeholder="Дата">
+                                <input id="datepicker" name="date" id="date2" class="record__form-item-input datepicker" type="date" placeholder="Дата">
                             </div>
                             <div class="record__inner">
-                                <input id="timepicker" class="record__form-item-input timepicker" type="time" placeholder="Время">
+                                <input id="timepicker" name="time" id="time2" class="record__form-item-input timepicker" type="time" placeholder="Время">
                             </div>
                         </div>
                         <div class="record__form-item">
-                            <span class="record__form-text">Нажимая на кнопку «Записаться», вы соглашаетесь <br><a href="" class="record__form-text--red">с политикой конфиденциальности</a></span>
+                            <span class="record__form-text">Нажимая на кнопку «Записаться», вы соглашаетесь <br><a href="#" class="record__form-text--red">с политикой конфиденциальности</a></span>
                         </div>
                         <div class="record__form-item">
                             <button type="submit" class="record__form-btn">Записаться на прием</button>
@@ -479,8 +479,8 @@
         <div class="callback__body">
             <h2 class="callback__title">Обратный звонок</h2>
             <form action="send1.php" class="callback__form form__data1">
-                <input type="text" name="name" id="name1" placeholder="Ваше имя" class="callback__form-input" required="">
-                <input type="text" name="phone" id="phone1" placeholder="Телефон" class="callback__form-input" required="">
+                <input type="text" name="name" id="name1" placeholder="Ваше имя" class="callback__form-input">
+                <input type="text" name="phone" id="phone1" placeholder="Телефон" class="callback__form-input">
                 <button class="callback__btn">Отправить</button>
             </form>
             <div class="close__popup"></div>

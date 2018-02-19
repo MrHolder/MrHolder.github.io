@@ -111,17 +111,17 @@
                 </div>
                 <div class="we__relations">
                     <h2 class="we__relations-title">Всегда на связи</h2>
-                    <form action="" class="we__relations-form">
-                        <input type="text" name="name" placeholder="Имя отправителя" class="relations__form--input" required="">
-                        <input type="email" name="email" placeholder="E-mail для связи" class="relations__form--input" required="">
-                        <select name="service" required="" class="relations__form--input">
+                    <form action="" class="we__relations-form form__data3">
+                        <input type="text" id="name3" name="name" placeholder="Имя отправителя" class="relations__form--input">
+                        <input type="email" id="email3" name="email" placeholder="E-mail для связи" class="relations__form--input">
+                        <select name="select" id="select3" class="relations__form--input">
                             <option disabled selected value="" class="form__select-dropdown">Услуга</option>
                             <option value="Услуга 1" class="form__select-dropdown">Услуга 1</option>
                             <option value="Услуга 2" class="form__select-dropdown">Услуга 2</option>
-                            <option value="Услуга3" class="form__select-dropdown">Услуга 3</option>
+                            <option value="Услуга 3" class="form__select-dropdown">Услуга 3</option>
                         </select>
-                        <input type="text" name="phone" id="phone2" placeholder="Телефон" class="relations__form--input" required="">
-                        <textarea name="comment" id="" cols="30" rows="10" class="relations__form--input" placeholder="Сообщение"></textarea>
+                        <input type="text" name="phone" id="phone3" placeholder="Телефон" class="relations__form--input">
+                        <textarea name="comment" id="comment3" cols="30" rows="10" class="relations__form--input" placeholder="Сообщение"></textarea>
                         <button class="we__form-btn">Отправить</button>
                     </form>
                 </div>
@@ -192,8 +192,8 @@
         <div class="callback__body">
             <h2 class="callback__title">Обратный звонок</h2>
             <form action="send1.php" class="callback__form form__data1">
-                <input type="text" name="name" id="name1" placeholder="Ваше имя" class="callback__form-input" required="">
-                <input type="text" name="phone" id="phone1" placeholder="Телефон" class="callback__form-input" required="">
+                <input type="text" name="name" id="name1" placeholder="Ваше имя" class="callback__form-input">
+                <input type="text" name="phone" id="phone1" placeholder="Телефон" class="callback__form-input">
                 <button class="callback__btn">Отправить</button>
             </form>
             <div class="close__popup"></div>
