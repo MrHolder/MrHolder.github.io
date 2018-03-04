@@ -40,7 +40,13 @@
 
 a {
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
     outline: none;
+}
+
+a:active {
+    outline: none;
+    text-decoration: none;
 }
 
 body {
@@ -51,6 +57,7 @@ button {
     cursor: pointer;
     outline: none;
     border: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 input,
@@ -3623,7 +3630,6 @@ label.toggle__menu {
     color: #fff;
     line-height: 30px;
     padding: 10px 0 10px 40px;
-    margin-left: 35px;
 }
 
 label.toggle__menu:before {
@@ -4227,6 +4233,10 @@ label.toggle__menu:before {
     }
     label.toggle__menu {
         display: block;
+        color: #333333;
+        font-family: Georgia;
+        font-size: 24px;
+        font-weight: 400;
     }
     input.toggle__menu:checked~.nav__body {
         display: block;
@@ -4469,6 +4479,9 @@ label.toggle__menu:before {
         margin: 32px 0 0px 0px;
         padding: 16px;
         position: absolute;
+    }
+    label.toggle__menu {
+        font-size: 22px;
     }
     .nav__items-container {
         width: 50%;
@@ -4899,6 +4912,12 @@ label.toggle__menu:before {
     }
     .header__delivery:before {
         display: none;
+    }
+    .header__search {
+        width: 100%;
+    }
+    label.toggle__menu {
+        font-size: 20px;
     }
     .nav__items-container {
         width: 100%;
