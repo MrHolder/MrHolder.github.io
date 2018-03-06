@@ -1359,6 +1359,7 @@ input::-moz-placeholder {
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 .swiper-button-next:before,
@@ -4123,6 +4124,9 @@ label.toggle__menu:before {
 }
 
 @media (max-width: 1024px) {
+    .interesting__item:hover .interesting__body-busket {
+        display: none;
+    }
     .nav__body-inner.active .nav__items {
         -webkit-transform: translateY(0%);
         -moz-transform: translateY(0%);
@@ -4781,6 +4785,9 @@ label.toggle__menu:before {
     }
     .category__text {
         text-align: center;
+    }
+    .category__btn-item {
+        margin: 0 7px;
     }
     /*---------------Страница продукта---------------*/
     .produce__items {
